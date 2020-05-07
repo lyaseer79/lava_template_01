@@ -1,0 +1,645 @@
+/*
+lava project done <05/07/2020 14 ramadan 1441>
+ just Xhtml and css 
+ no html5 or css3
+ original templet https://templatemo.com/live/templatemo_540_lava_landing_page
+*/
+
+.yasser-done{
+    margin-top:20px ;
+    display: block;
+    color: black;
+}
+/*General Style*/
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 17;
+}
+body{
+    background-color: rgb(246, 246, 246);
+}
+.container{
+    /*container put content withe margin left and right 10% (content widht --> 80%)  */
+    width: 85%;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+
+/*item-mg */ /*----------------------*/
+
+.item-mg{
+    margin: 0 5%;
+}
+/*span*/ /*----------------------*/
+    
+
+/*a */ /*----------------------*/
+
+a{
+    text-decoration: none;
+    color: #057EFF;
+
+}
+a:hover{
+    color: #0056b3;
+}
+.active-links{
+    color: #fba70b;
+}
+/*Button*/ /*----------------------*/
+.but{
+    display: block;
+    height: 50px;
+    width: max-content;
+    padding: 0 20px;
+    border-radius: 100px;
+    border: 0px;
+    color: white;
+    background-color: #f4813f;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.but:hover{
+    background-color: #F1556A;
+}
+/*-------------------------------------*/
+
+/*list*/ /*----------------------*/
+ul{
+    list-style: none;
+}
+
+hr{
+    color: white;
+}
+
+/*------------------------------------------------------------------------------------------------------------*/
+ /*---------------Header -Section--------------*/
+.header-section{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    
+
+}
+
+.nav-bar{
+    width: 80%;
+    height: 40px;
+    border-radius:3px ;
+    margin-top: 20px;
+    padding: 0 5px;
+    background-color: white;
+}
+.nav-bar .logo{
+    float: left;
+    color: black;
+    text-transform: uppercase;
+    width: 20%;
+    height: 100%;
+}
+.nav-bar .logo h1{
+    width: 100%;
+    height: 100%;
+    font-size: 28;
+}
+.nav-bar .logo a{
+    color: black;
+}
+.nav-bar .menu{
+    float: left;
+    width: 80%;
+    height: 100%;
+    text-align: right;
+}
+.nav-bar .menu ul{
+    list-style: none;
+}
+.nav-bar .menu ul li{
+    display: inline-block;
+    padding: 0 15px;
+    
+
+}
+.nav-bar .menu ul li a{
+    display: block;
+    height: 100%;
+    line-height: 40px;
+    text-transform: uppercase;
+    transition: color 0.3s;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+.nav-bar .menu ul li a:hover{
+    color: #fba70b;
+
+
+}
+.menu-link{
+    color: #7a7a7a;
+}
+.item-desc{
+    font-weight: 400;
+    font-size: 15;
+    color: #888;
+    line-height: 25px;
+
+}
+
+.section-header{
+    color: #1e1e1e;
+    font-weight: 700;
+    font-size: 42;
+    margin-bottom: 15px;
+}
+.section-header span{
+    color: #f4813f;
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+/****************  Home Section ******************/
+
+.home{
+    width: 100%;
+    height: 120vh;
+
+}
+.home-content{
+    background-image: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    width: 100%;
+    height: 100%;
+
+}
+
+.home .text {
+    width: 40%;
+    padding: 35vh 10 0 90px;
+
+}
+.home .text .tital{
+    font-size: 52;
+    letter-spacing: 1px;
+    padding: 0 10px 0 0;
+    font-weight: 900;
+    color: #191A20;
+
+}
+.home .text .tital span{
+    text-transform: capitalize;
+    color: #fba70b;
+    font-size: inherit;
+
+}
+.home .text .desc{
+    color: #7a7a7a;
+    padding: 0 20px 0 0;
+    line-height: 30px;
+    margin: 30px 0;
+    
+} 
+.item-tital{
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-size: 22px;
+    color: #1e1e1e;
+    font-weight: 500;
+
+}
+
+
+.home-but{
+    display: block;
+    height: 50px;
+    width: max-content;
+    padding: 0 20px;
+    border-radius: 100px;
+    border: 0px;
+    color: white;
+    background-color: #fba70b;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.home-but:hover{
+    background-color: #F1556A;
+}
+
+
+/*-------------------------------------------------------*/
+/*About Section*/
+
+.about{
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0;
+}
+
+.about .about-content{
+    overflow: hidden;
+    
+}
+.about .item{
+    padding: 50px 20px;
+    width: 30%;
+    float: left;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 5px;
+    text-align: center;
+}
+.about .item ul{
+    position: relative;
+}
+.about .item ul li{
+    margin-bottom: 30px;
+    
+}
+
+
+.about .item button{
+    margin: 0 auto;
+}
+.about .item .item-img{
+    width: 100%;
+    height: 100px;
+
+}
+.about .item .item-img img{
+    width: 100%;
+    height: 100px;
+    
+    padding: 23px 115px 0px 106;
+    
+}
+.about .num-item{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.about .num-item .num{
+    color: #F1556A;
+    opacity: 0.1;
+    line-height: 80px;
+    font-size: 100;
+    font-weight: 600;
+
+}
+/*--------------------------------------------------------------*/
+
+.left-img{
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/left-bg-decor.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    position: absolute;
+    margin-top: -190px;
+    
+}
+/*--------------------------------------------------------------*/
+/*     features Section     */
+.features{
+    height: 100vh;
+    width: 100%;
+    padding-top: 90px;
+  
+}
+.features .content{
+    overflow: hidden;
+}
+.features .item{
+    width: 50%;
+    float: left;
+    height: 100%;
+    height: 85%;
+}
+.features .itm-img{
+    width: 80%;
+
+}
+.features .itm-img img{
+    width: 100%;
+}
+
+
+.features .item .item-t{
+    width: 100%;
+    height: 30%;
+    padding: 20 0;
+    overflow: hidden;
+}
+
+.features .item .item-t .icon{
+    float: left;
+    width: 20%;
+}
+.features .item .item-t .desc{
+    float: left;
+    width: 80%;
+}
+.item-y-marg{
+    margin: 5% 0;
+
+}
+/*-------------------------------------------------------*/
+/*right img*/
+.right-img{
+    background-image: url('../images/right-bg-decor.png');
+    width: 100%;
+    height: 100%;
+    background-position: center right;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    margin-top: -212px;
+}
+/*---------------------------------------------------------------------/*
+/*--------- Testimonials Section ---------------------------*/
+.testimonials{
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+}
+.testimonials .testimonials-header{
+
+    text-align: center;
+    padding: 0 200px;
+    margin-bottom: 55px;
+}
+
+.testimonials-items{
+   /* background-color: lawngreen;*/
+    float: left;
+    overflow: hidden;
+    color: white;
+    width: 79%;
+    margin-left: 7%;
+}
+.item-bord{
+    float: left;
+    margin-right: 10px;
+    padding: 57px 30px;
+    width: 47%;
+    position: relative;
+    /*background-color: lightseagreen;*/
+}
+.item-bord .review-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 26%;
+    height: 29%;
+    border-radius: 50%;
+}
+.item-bord .review-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    
+    
+}
+
+
+.testimonials-items .item-bord .item{
+    background: linear-gradient(145deg, rgba(244,129,63,1) 0%, rgba(241,85,106,1) 100%);
+    text-align: center;
+}
+.testimonials-items .item-bord .item .item-cont{
+       /* padding: 35px 38px; */
+       width: 87%;
+       /* margin: 0 17%; */
+       margin: 0 auto;
+       /* margin-right: 31%; */
+       /* margin-left: 25%; */
+       /* margin: 20px 20px; */
+       padding: 40px 0px;
+}
+.testimonials-items .item-bord .item .item-cont > ul{
+
+  
+}
+.testimonials-items .item-bord .item .item-cont >ul li{
+    margin-bottom: 10px;
+  
+}
+.testimonials-items .item-bord .item .item-desc{
+    color:#fff;
+    font-weight: 200;
+}
+.testimonials-items .item-bord .item span{
+    font-size: 15;
+    font-weight: 200;
+}
+
+.testimonials-items .item-bord .item .review-name{
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.testimonials-items .item-bord .item .review-stars{
+}
+.testimonials-items .item-bord .item .review-stars li{
+    display: inline-block;
+}
+.testimonials-items .item-bord .item .review-stars i{
+font-size: 13;
+}
+.testimonials-switch{
+    width: 12%;
+    float: left;
+    padding: 180px 0;
+    position: relative;
+    }
+
+
+.testimonials-switch .left-icon{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(145deg, rgba(244,129,63,1) 0%, rgba(241,85,106,1) 100%);
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    z-index: 2;
+
+}
+.testimonials-switch i{
+    color: white;
+    font-size: xx-large;
+}
+.testimonials-switch .right-icon{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(145deg, rgba(244,129,63,1) 0%, rgba(241,85,106,1) 100%);
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    position: absolute;
+    top: 160px;
+    right: 0;
+    z-index: 10;
+}
+/*---------------------------------------------------------------------/*
+/*--------- Contact Us Section ---------------------------*/
+.contact-us{
+    width: 100%;
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+
+}
+.contact-us .cntact-us-cont{
+    padding-top: 290px;
+    overflow: hidden;
+}
+.cntact-us-cont .item{
+    width: 50%;
+    float: left;
+}
+.contact-us .item .contact-form{
+    width: 90%;
+    height: 420px;
+    padding:50px;
+    background-color: white;
+    border: 1px solid #eee;
+    border-radius: 5px;
+
+}
+.contact-us input ,.contact-us textarea{
+    margin-bottom: 20px;
+    padding: 0 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    resize: none;
+    outline: none;
+    font-size: 13;
+
+}
+.contact-us .name-input{
+    width: 47%;
+    margin-right: 4%;
+    height: 40px;
+   
+}
+.contact-us .email-input{
+    width: 47%;
+    height: 40px;
+    resize: none;
+    outline: none;
+}
+.contact-us .message-input{
+    width: 100%;
+    padding: 15px 18px 30% 18px;
+}
+input::placeholder , textarea::placeholder{
+    text-transform: capitalize;
+}
+.contact-us .contact-form .but{
+    margin: 10px auto;
+}
+.contact-us .contact-form textarea{
+    padding: 10px 20px;
+    resize: none;
+    outline: none;
+    width: 100%;
+    height:200px;
+    /*transition: border-color 0.3s;*/
+
+    
+}
+.contact-us .contact-form textarea:focus{
+    border: 2px solid #f4813f;
+    border-radius: 5px;
+}
+.contact-us .contact-form input:focus{
+    border-bottom: 2px solid #f4813f;
+}
+.contact-us .item .item-text{
+    
+}
+.contact-us .item .item-text .section-header{
+    color: white;
+    
+}
+.contact-us .item .item-text .section-header span{
+    color: #fba70b;
+    
+}
+.contact-us .item .item-text .item-desc{
+    
+    color: white;
+    margin: 40px 0;
+    
+}
+
+.contact-us .item .item-text ul li{
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+.contact-us .item .item-text ul li a{
+    padding: 10px 11px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: block;
+    width: 40px;
+    height: 40px;
+    transition: background-color 0.5s;
+    
+}
+.contact-us .item .item-text ul li a:hover{
+    background-color: #fba70b;
+    
+}
+.contact-us .item .item-text ul li a i{
+    display: inline-block;
+    color: white;    
+    
+}
+
+
+
+/*---------------------*/
+.foother{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+.foother .item-desc{
+    color: #ffffff;
+}
+.foother a{
+    color: inherit;
+}
+
+.foother a:hover{
+    color: #fba70b;
+}
+ .foother hr{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    opacity: 0.5;
+    border-top: 0.1px solid white;
+
+ }
